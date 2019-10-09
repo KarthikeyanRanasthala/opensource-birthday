@@ -33,7 +33,6 @@ export const getUser = (query) => {
                     return dispatch(getUserSuccess(resp.data))
                 })
                 .catch(error => {
-                    console.log(error);
                     return dispatch(getUserFail(error))
                 })
     }

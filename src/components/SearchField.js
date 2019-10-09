@@ -15,12 +15,10 @@ class SearchField extends React.Component {
     }
 
     handleChange = (event) => {
-        console.log(this.state.inputValue)
         this.setState({ inputValue: event.target.value })
     }
 
     render() {
-        console.log(this.props)
         return (
             <>
                 <Grid.Row>
